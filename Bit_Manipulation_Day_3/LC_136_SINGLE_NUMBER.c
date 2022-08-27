@@ -1,4 +1,4 @@
-// LC : 136 -> Single Number C programing
+// LC : 136 Single Number
 
 
 
