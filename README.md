@@ -1,2 +1,1 @@
-# Bit_Manipulation
-question 1
+# TechDose Training
