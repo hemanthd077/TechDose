@@ -16,8 +16,11 @@ class Find{
 }
 
 class HelloWorld {
+
+    private static Scanner sc;
+
     public static void main(String[] args) {
-        Scanner sc=new Scanner(System.in);
+        sc = new Scanner(System.in);
         
         System.out.println("Enter the Num:");
         long N=sc.nextInt();
