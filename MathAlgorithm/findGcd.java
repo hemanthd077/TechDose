@@ -8,7 +8,7 @@ class Find{
     }
 }
 
-class HelloWorld {
+class findGcd{
     private static Scanner sc;
 
     public static void main(String[] args) {

@@ -16,7 +16,7 @@ class Find{
     }
 }
 
-class HelloWorld {
+class findPower {
     private static Scanner sc;
 
     public static void main(String[] args) {

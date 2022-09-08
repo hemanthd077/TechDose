@@ -2,7 +2,7 @@
 
 import java.util.*;
 
-class Find{
+class findFactor{
     public void primeFactor(long N){
         int div=2;
         while(N > 1){
@@ -17,7 +17,7 @@ class Find{
     }
 }
 
-class HelloWorld {
+class primeFactor {
     private static Scanner sc;
 
     public static void main(String[] args) {
@@ -25,7 +25,7 @@ class HelloWorld {
         System.out.println("Enter the Num:");
         long N=sc.nextInt();
         
-        Find a = new Find();
+        findFactor a = new findFactor();
         System.out.println("The output:");
         a.primeFactor(N);
     }
