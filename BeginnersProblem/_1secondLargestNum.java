@@ -2,7 +2,7 @@ package BeginersProblem;
 
 import java.util.*;
 
-public class secondLargestNum {
+public class _1secondLargestNum {
     public static void main(String args[]){
         Scanner sc=new Scanner(System.in);
         int n= sc.nextInt();

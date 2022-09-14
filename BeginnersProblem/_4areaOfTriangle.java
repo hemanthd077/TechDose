@@ -2,7 +2,7 @@ package BeginersProblem;
 
 import java.util.*;
 
-class areaOfTriangle {
+class _4areaOfTriangle {
     public static void main(String args[]){
         Scanner sc = new Scanner(System.in);
         double Ax,Bx,Cx,Ay,By,Cy,A,B,C,side,area;

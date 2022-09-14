@@ -2,7 +2,7 @@ package BeginersProblem;
 
 import java.util.*;
 
-public class LCMofTwoNum {
+public class _3LCMofTwoNum {
     public static void main(String args[]){
         Scanner sc=new Scanner(System.in);
         int num1 = sc.nextInt();

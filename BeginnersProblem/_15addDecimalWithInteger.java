@@ -2,7 +2,7 @@ package BeginersProblem;
 
 import java.util.*;
 
-class addDecimalWithInteger{
+class _15addDecimalWithInteger{
     public static void main(String args[]){
         Scanner sc=new Scanner(System.in);
         double num1=sc.nextDouble();

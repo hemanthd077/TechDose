@@ -2,7 +2,7 @@ package BeginersProblem;
 
 import java.util.*;
 
-public class pascalsTriangle {
+public class _13pascalsTriangle {
     public static void main(String args[]){
         Scanner sc=new Scanner(System.in);
             int N=sc.nextInt();

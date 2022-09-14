@@ -2,7 +2,7 @@ package BeginersProblem;
 
 import java.util.*;
 
-public class perfectSquare {
+public class _14perfectSquare {
     public static void main(String args[]){
         Scanner sc=new Scanner(System.in);
         int a,b,c,d;
