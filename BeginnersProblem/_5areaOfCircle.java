@@ -1,6 +1,6 @@
 //Find area of a circle given radius as integer
 
-package BeginersProblem;
+package BeginnersProblem;
 
 import java.util.*;
 

@@ -1,0 +1,38 @@
+class Solution {
+    public int myAtoi(String s) {
+        int i=0,total=0;
+        boolean flag=false;
+        while(s.length()>i && s.charAt(i)==' '){
+            i++;
+        }
+        if(s.length()>i && s.charAt(i)=='+'){
+            i++;
+        }
+        else if(s.length()>i && s.charAt(i)=='-'){
+            i++;
+            flag=true;
+        }
+        while(s.length()>i && (s.charAt(i)>='0' && s.charAt(i)<='9')){
+            int temp = s.charAt(i)-'0';
+            if(total > (Integer.MAX_VALUE-temp)/10){
+                if(flag){
+                    return Integer.MIN_VALUE;
+                }
+                else{
+                    return Integer.MAX_VALUE;
+                }
+            }
+            total*=10;
+            total+=temp;
+            i++;
+        }
+        if(total==0)
+            return 0;
+        if(flag){
+            return total*-1;
+        }
+        else{
+            return total;
+        }
+    }
+}

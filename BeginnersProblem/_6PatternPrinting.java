@@ -1,4 +1,4 @@
-package BeginersProblem;
+package BeginnersProblem;
 
 /*Pattern 1
 

@@ -1,4 +1,4 @@
-package BeginersProblem;
+package BeginnersProblem;
 
 import java.util.*;
 
