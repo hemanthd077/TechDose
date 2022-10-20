@@ -1,0 +1,17 @@
+class Solution {
+    public int numberOfWays(int startPos, int endPos, int k) {
+        int arr[] = new int[3002];
+        startPos+=1000;
+        endPos+=1000;
+        arr[startPos]=1;
+        for(int i=0;i<k;i++){
+            int p=0;
+            for(int j=0;j<=3000;j++){
+                int pre=arr[j];
+                arr[j]=(p+arr[j+1])%1_000_000_007;
+                p=pre;
+            }
+        }
+        return arr[endPos];
+    }
+}
